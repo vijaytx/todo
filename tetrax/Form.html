@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="login.html">Login</a>
+        <a href="Form.html">Register</a>
+    </div>
+    <body>
+        <h1 class="formh1">Submit Registration Form</h1>
+        <div class="container2">
+        <form method="GET" action="action.php">
+            <div class="input_field">
+                <table>
+                    <tr><td>First Name:</td><td><input type="text" name="fname"></td></tr>
+                    <tr><td>Last Name:</td><td><input type="text" name="lname"></td></tr>
+                    <tr><td>Gender:</td><td><input type="radio" name="gender" value="male">Male
+                                              <input type="radio" name="gender" value="female">Female</td></tr>
+                     <tr><td>City:</td><td><input type="checkbox" name="city" value="chennai">Chennai
+                                              <input type="checkbox" name="city" value="Coimbatore">Coimbatore</td></tr>
+                    <tr><td>Email:</td><td><input type="email" name="email"></td></tr>
+                    <tr><td>Phone:</td><td><input type="number"></td></tr>
+                    <tr><td>DOB:</td><td><input type="date" name="dob"></td></tr>
+                    <tr><td>Password:</td><td><input type="password" name="password" min="6"></td></tr>
+                    <tr><td>Confirm Password:</td><td><input type="password" name="conf_password" min="6"></td></tr>
+                </table>             
+               </div>    
+            <input type="submit" value="Register!">
+            <input type="reset" name="reset">
+            <input type="button" value="Go back!" onclick="history.back()">
+        </form>
+    </div>
+    </body>
+    <footer>
+        <p>Saple footer :)</p>
+    </footer>
+</html>
+
+<!--?fname=vijay
+&lname=raju
+&gender=on
+&city=on
+&email=vijay%40mail.com
+&dob=1994-07-09
+&exp=2
+&password=Vijay%4021
+
+?fname=vijay
+&lname=raju
+&gender=male
+&city=chennai
+&email=vijay%40mail.com
+&dob=1994-07-09
+&exp=2
+&password=Vijay%4021
+&option=Part_timer>
